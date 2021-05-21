@@ -1,0 +1,24 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		String x = add("S","N","E","A","K","I","N","G");
+		String y = add("T","O","M");
+		
+		System.out.println(x);
+		System.out.println(y);
+	
+
+	}
+	
+	static String add(String a,String b,String c,String d,String e,String f,String g,String h) {
+		System.out.println("SNEAKING Method");
+		return a + b + c + d + e + f + g + h;
+	}
+	static String add(String a, String b, String c) {
+		System.out.println("TOM Method");
+		return a + b + c;
+	}
+}
